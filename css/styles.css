@@ -11,7 +11,7 @@ hr {
     border: 1px solid gray;
     border-radius: 20px;
     color: whitesmoke;
-    width: 360px;
+    width: 300px;
     height: 620px;
 }
 .ratingfilms {
@@ -34,13 +34,13 @@ hr {
     margin-bottom: 40px;
 }
 .toptitle {
-    font-size: 40px;
+    font-size: 28px;
     margin-bottom: 40px;
     color: whitesmoke;
     text-align: center;
 }
 .imagefilmdiv {
-    width: 280px;
+    width: 240px;
     height: 400px;
     display: flex;
     justify-content: center;
