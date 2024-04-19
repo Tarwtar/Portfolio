@@ -165,3 +165,12 @@ hr {
     margin-bottom: 40px;
     color: whitesmoke;
 }
+.par {
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.addresstitle {
+    font-size: 20px;
+    color: whitesmoke;
+}
