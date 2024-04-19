@@ -1,5 +1,8 @@
 body {
     background-color: rgb(20, 20, 20);
+    max-width: 1440px;
+    padding: 20px 20px;
+    margin: 0 auto;
 }
 hr {
     margin-top: 30px;
@@ -11,8 +14,8 @@ hr {
     border: 1px solid gray;
     border-radius: 20px;
     color: whitesmoke;
-    width: 300px;
-    height: 620px;
+    width: 260px;
+    height: 500px;
 }
 .ratingfilms {
     display: flex;
@@ -22,16 +25,32 @@ hr {
     align-items: center;
 }
 .filmcardtitle {
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     color: whitesmoke;
     margin-bottom: 40px;
+    margin-top: 10px;
 }
-.Johnnycardtitle {
-    font-size: 28px;
+.johnnycardtitle {
+    font-size: 20px;
     color: whitesmoke;
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 10px;
+}
+.bovtitle{
+    font-size: 22px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.shineetitle{
+    font-size: 24px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 .toptitle {
     font-size: 28px;
@@ -40,8 +59,8 @@ hr {
     text-align: center;
 }
 .imagefilmdiv {
-    width: 240px;
-    height: 400px;
+    width: 200px;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,6 +90,10 @@ hr {
 .linkstyle {
     text-decoration: none;
     color: blueviolet;
+}
+.linkstyle:hover,
+.linkstyleL:focus {
+    color:rgb(227, 150, 226);
 }
 .linkname {
     font-size: 20px;
